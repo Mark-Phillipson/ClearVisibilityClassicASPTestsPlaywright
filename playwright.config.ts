@@ -40,8 +40,9 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         // Use prepared auth state.
         storageState: 'playwright/.auth/user.json',
-        httpCredentials: { username: 'EnterUserNameHere', password: 'EnterPasswordHere' },
-        baseURL: 'http://192.168.1.14/',
+        // httpCredentials: { username: 'Mark', password: 'G4t3sH34dIBC@jra12!' },
+        //http://myuser:mypassword@domain.com/
+        baseURL: 'http://Mark:G4t3sH34dIBC@jra12!@192.168.1.14/',
       },
       dependencies: ['setup'],
 
